@@ -23,3 +23,8 @@ if (require.main === module) {
 }
 
 module.exports = isPalindrome;
+
+function isPalindrome(str) {
+  return str === str.split('').reverse().join('');
+}
+
